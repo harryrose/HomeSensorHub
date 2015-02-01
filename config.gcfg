@@ -1,0 +1,17 @@
+[mongo]
+server=localhost
+database=testdb
+collection=testc
+
+[zmqout]
+port=9988
+
+[zmqin]
+port=9999
+
+[httpin]
+port=9977
+
+[log]
+level=debug
+file=data.log
